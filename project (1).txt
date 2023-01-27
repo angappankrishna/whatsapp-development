@@ -8,7 +8,7 @@ A sequence of keywords is used to define the test scripts and these keywords are
 Selenium Test Suite are maintained in RTC repository.
 if need to include or make any change we have to download Scripts based on release to our local wrokspace to include test case's /modify any and then sent for delivery.
 it runs on daily basis on multiple release's like maintenance and Current ongoing release's.
-we have maintaining test case's as vertical's wise (component wise). 
+we have maintaining test case's as vertical's wise (component wise).Â 
 
 With the help of jboss which is configured with our local server which has T24 Database, we start the jboss & launch the URL for testing purpose.
 there was an other testing tool called SEAT in temenos which used to Test the product in backend,
@@ -61,4 +61,4 @@ technical action
 
 A) Page Object is a class that represents a web page and hold the functionality and members.
 
-Page Factory is a way to initialize the web elements you want to interact with within the page object when you create an instance of it.
+Page Factory is a way to initialize the web elements you want to interact with within the page object when you create an instance of it
