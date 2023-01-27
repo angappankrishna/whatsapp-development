@@ -62,3 +62,5 @@ technical action
 A) Page Object is a class that represents a web page and hold the functionality and members.
 
 Page Factory is a way to initialize the web elements you want to interact with within the page object when you create an instance of it
+
+keyword driven frame work
