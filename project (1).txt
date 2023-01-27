@@ -1,0 +1,64 @@
+
+Selenium Project @Temenos.
+
+In keyword driven frameworks, the test logic is divided into keywords and functions. 
+A sequence of keywords is used to define the test scripts and these keywords are further defined as functions to implement the desired behaviour.
+ All the operations and instructions to be performed are written in some external file like an Excel sheet
+
+Selenium Test Suite are maintained in RTC repository.
+if need to include or make any change we have to download Scripts based on release to our local wrokspace to include test case's /modify any and then sent for delivery.
+it runs on daily basis on multiple release's like maintenance and Current ongoing release's.
+we have maintaining test case's as vertical's wise (component wise). 
+
+With the help of jboss which is configured with our local server which has T24 Database, we start the jboss & launch the URL for testing purpose.
+there was an other testing tool called SEAT in temenos which used to Test the product in backend,
+thus the selenium used to test the product's components/ scenario's via GUI/Frontend.
+we are maintaing some list of excel file where we have the flow ,data values,test navigation flow and object id's.
+for eg: we have 4 different sheet A considered as a sheet where wehave list of components to be executed.
+B will be having list of case's of a particular component has to be executed(B will be splitted as B-1,B-2 based on how many components u have), 
+
+c will be having data values for the case's of a particular component.
+D will be having the Techinal flow i.e., Test case flow mixed up with B,C,E and the functions/methods used in framework(eg,TextBoxInputText,ElementClick etc,.)
+E will be having object id's for the test case's.
+Selenium related jar file are stored in a folder named lib and source will compiled into jars and stored in bin.
+Finally we will call a file named run.bat which has joblist by call thing to start and aslo pointing the selenium releated bin file for execution. 
+
+
+frame work
+
+bin (binary file) (excutable file that means we can able to change the details , having the .class files))
+lib (libary file) (converting excutable file into jar file means junit.jar,selenium.jar, poi.jar(excel read and write), updateexcel.jar)
+excel result
+html result
+project(frame work coding)
+testware
+run
+
+TEST WARE
+
+bUsiness action
+config
+data
+driver 
+object map
+technical action
+
+
+1: system will check for the driver floder (which need to be excution like retail,afw,bfw,wh,ch, payments,corp)
+2: next system will check for bUsiness action(to be excution of based on vertical like retail test case 01, 02, 03)
+3: technical action (which broswser lunch and object maping code will be there )
+4: check the config file that have broswer link thats like http
+5: then check the object maping in that we have xpth details ( that means intechinal action we have code a1(clicking the login botton) for xpath we ill define in object mapping.
+6: data will be there based on techinal cation code.
+
+
+
+
+ In Page Object Model, consider each web page of an application as a class file
+
+
+6) What is the difference between Page Object Model (POM) and Page Factory?
+
+A) Page Object is a class that represents a web page and hold the functionality and members.
+
+Page Factory is a way to initialize the web elements you want to interact with within the page object when you create an instance of it.
